@@ -1,0 +1,261 @@
+/* 
+    Document   : style
+    Created on : Mar 17, 2012, 10:50:51 AM
+    Author     : MAIN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+root { 
+    display: block;
+}
+
+#main{
+       margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+}
+
+#topspace{
+    height: 75px;    
+}
+
+#topbar{
+        background-image: url(../img/up.png);
+        height: 77px;
+}
+
+#contentmain
+{
+    border:0px solid #84888C;
+    text-shadow: #B8B8B8 1px 1px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 500px;
+    background-image: url(../img/mid.png);
+    padding: 20px;
+    color: #293d70;
+}
+#low{
+    
+    background-image: url(../img/low.png);
+    height: 37px;
+}
+
+ul#menu {
+    display: block;
+    float:left;
+    
+}
+
+
+
+td.space{
+    width: 10px;
+}
+
+table#menu
+{
+    position: relative;
+    top: 20px;
+    left: 270px;
+}
+
+div.logo
+{
+    background-image: url(../img/logo.png);
+    width: 287px;
+    height: 51px;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+.addw{
+    display: block;
+    background-image: url(../img/addw.png);
+    width: 106px;
+    height: 34px;
+}
+
+.addw:hover{
+    background-image: url(../img/addwp.png);
+
+}
+
+.editw{
+    display: block;
+    background-image: url(../img/editw.png);
+    width: 106px;
+    height: 34px;
+}
+
+.editw:hover{
+    background-image: url(../img/editwp.png);
+
+}
+
+.info{
+    display: block;
+    background-image: url(../img/info.png);
+    width: 33px;
+    height: 34px;
+
+}
+
+.info:hover{
+    background-image: url(../img/infop.png);    
+}
+
+.cat{
+    display: block;
+    background-image: url(../img/cat.png);
+    width: 106px;
+    height: 34px;
+
+}
+
+.cat:hover{
+    background-image: url(../img/catp.png);    
+}
+
+.back{
+    display: block;
+    background-image: url(../img/back.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.back:hover{
+    background-image: url(../img/backp.png);    
+}
+
+.delete{
+    display: block;
+    background-image: url(../img/delete.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.delete:hover{
+    background-image: url(../img/deletep.png);    
+}
+
+.add{
+    display: block;
+    background-image: url(../img/add.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.add:hover{
+    background-image: url(../img/addp.png);    
+}
+
+.edit{
+    display: block;
+    background-image: url(../img/edit.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.edit:hover{
+    background-image: url(../img/editp.png);    
+}
+
+.search{
+    display: block;
+    background-image: url(../img/search.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.search:hover{
+    background-image: url(../img/searchp.png);    
+}
+
+.allw{
+    display: block;
+    background-image: url(../../img/allwords.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.allw:hover{
+    background-image: url(../../img/allwordsp.png);    
+}
+
+.show{
+    
+    font-size: 12px;
+    padding: 2px;
+    background-color: #d8e0e3;
+    border: 1px solid black;
+        color: #000000;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        
+}
+
+.page{
+
+    background-color: #d8e0e3;
+    border: 1px solid black;
+            -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.page:hover
+{
+    background-color: #eff2f3;
+}
+
+ a:link {color:#000000;}      /* unvisited link */
+ a:visited {color:#000000;}  /* visited link */
+ a:hover {color:#000000;}  /* mouse over link */
+ a:active {color:#000000;}  /* selected link */
+ 
+ a:link {text-decoration:none;}
+ a:visited {text-decoration:none;}
+ a:hover {text-decoration:none;}
+ a:active {text-decoration:none;}
+ 

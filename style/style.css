@@ -1,0 +1,446 @@
+/* 
+    Document   : style
+    Created on : Mar 17, 2012, 10:50:51 AM
+    Author     : MAIN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    background-color: #f3f4f4;
+ 
+}
+
+
+
+
+root { 
+    display: block;
+}
+
+#main{
+       margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#topspace{
+    height: 75px;    
+}
+
+#topbar{
+        background-image: url(../img/up.png);
+        height: 53px;
+}
+
+#contentmain
+{
+    border:0px solid #84888C;
+    text-shadow: #B8B8B8 1px 1px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    background-color: #f3f4f4;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #293d70;
+}
+
+
+div.leftcol
+{
+    max-height: 450px;
+    min-height: 450px;
+    width: 200px;
+    vertical-align: top;
+    overflow-y:auto;
+    float: left;
+    
+    border: 0px solid #C2D1E8;
+}
+div.rightcol
+{
+    width: auto;
+    vertical-align: top;
+    width:inherit;
+    overflow-y: auto;
+    border: 0px solid #C2D1E8;
+    margin-left:auto;
+    margin-right: auto;
+    left: 250px;
+}
+#low{
+    
+    background-image: url(../img/low.png);
+    height: 37px;
+}
+
+
+
+.eng{
+    display: block;
+    background-image: url(../img/eng.png);
+    width: 138px;
+    height: 34px;
+}
+
+.eng:hover{
+    background-image: url(../img/engp.png);
+
+}
+
+.ro{
+    display: block;
+    background-image: url(../img/ro.png);
+    width: 138px;
+    height: 34px;
+}
+
+.ro:hover{
+    background-image: url(../img/rop.png);
+
+}
+
+td.space{
+    width: 10px;
+}
+
+table#menu
+{
+    position: relative;
+    top: 7px;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.logo
+{
+    background-image: url(../img/logo.png);
+    width: 287px;
+    height: 51px;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+.info{
+    display: block;
+    background-image: url(../img/info.png);
+    width: 60px;
+    height: 34px;
+
+}
+
+.info:hover{
+    background-image: url(../img/infop.png);    
+}
+
+.cat{
+    display: block;
+    background-image: url(../img/cat.png);
+    width: 106px;
+    height: 34px;
+
+}
+
+.cat:hover{
+    background-image: url(../img/catp.png);    
+}
+
+.back{
+    display: block;
+    background-image: url(../img/back.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.back:hover{
+    background-image: url(../img/backp.png);    
+}
+
+.delete{
+    display: block;
+    background-image: url(../img/delete.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.delete:hover{
+    background-image: url(../img/deletep.png);    
+}
+
+.add{
+    display: block;
+    background-image: url(../img/add.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.add:hover{
+    background-image: url(../img/addp.png);    
+}
+
+.edit{
+    display: block;
+    background-image: url(../img/edit.png);
+    width: 106px;
+    height: 34px;
+    outline: none;
+}
+
+.edit:hover{
+    background-image: url(../img/editp.png);    
+}
+
+.search{
+    display: block;
+
+    outline: none;
+}
+
+.search:hover{
+    background-image: url(../img/searchp.png);    
+}
+
+td{
+    vertical-align: middle;
+}
+
+
+td.alright
+{
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: #c7d2de; 
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    border:1px solid white;
+  
+}
+
+td.alleft
+{
+    background-color: #c7d2de;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    border:1px solid white;
+    font-size: 12px; 
+  
+}
+td.alright:hover
+{
+     background-color: #edf2f8; 
+}
+td.alleft:hover
+{
+     background-color: #edf2f8; 
+}
+.check{
+    display: block;
+    background-image: url(../img/check.png);
+    width: 24px;
+    height: 24px;
+    outline: none;
+}
+
+.check:hover{
+    background-image: url(../img/checked.png);    
+}
+
+td.cate{
+    
+    background-color: #e4e4e4; 
+    border: 1px solid #999;
+    padding: 5px;
+    color: #a90329;
+    text-shadow: white 1px 1px 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px #888;
+    -webkit-box-shadow: 0px 2px 2px #888;
+    box-shadow: 0px 2px 2px #888;
+}
+
+td.alrightg
+{
+    
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: #c3dec9; 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;    
+    border:1px solid white;  
+}
+td.alrightg:hover
+{
+     background-color: #edf8f2; 
+}
+
+td.alleftg
+{
+    background-color:  #c3dec9; 
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    border:1px solid white;
+    font-size: 14px; 
+  
+}
+
+td.alleftg:hover
+{
+     background-color: #edf8f2; 
+}
+
+#logo
+{
+    position: fixed;
+    left: 50px;
+    top: 4px;
+    background-image: url(../img/logo.png); 
+    height: 67px;
+    width: 296px
+}
+
+.page{
+
+    background-color: #d8e0e3;
+    border: 1px solid #293d70;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    color: #293d70;
+}
+.page:hover
+{
+    background-color: #eff2f3;
+}
+
+ a:link {color:#293d70;}      /* unvisited link */
+ a:visited {color:#293d70;}  /* visited link */
+ a:hover {color:#293d70;}  /* mouse over link */
+ a:active {color:#293d70;}  /* selected link */
+ 
+ a:link {text-decoration:none;}
+ a:visited {text-decoration:none;}
+ a:hover {text-decoration:none;}
+ a:active {text-decoration:none;}
+ 
+ input    {
+
+    display: block;
+    border: 1px solid #999;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+td.source
+{
+    border: 1px solid #999;
+    width: 200px;
+    text-align: center;
+    background-color: #E4E4E4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+        -moz-box-shadow: 0px 2px 2px #888;
+    -webkit-box-shadow: 0px 2px 2px #888;
+    box-shadow: 0px 2px 2px #888;
+}
+
+td.translated
+{
+    border: 1px solid #999;
+    width: 100%;
+    
+    background-color: #E4E4E4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+
+    font-size: 12px;
+    
+    -moz-box-shadow: 0px 2px 2px #888;
+    -webkit-box-shadow: 0px 2px 2px #888;
+    box-shadow: 0px 2px 2px #888;
+}
+td.source:hover
+{
+    background-color: #f1f1f1;
+}
+td.translated:hover
+{
+    background-color: #f1f1f1;
+}
+table.results
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #293d70;
+    text-shadow: #B8B8B8 1px 1px 0px;
+    
+}

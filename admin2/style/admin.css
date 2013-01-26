@@ -1,0 +1,215 @@
+/* 
+    Document   : admin
+    Created on : Jun 24, 2012, 5:01:17 PM
+    Author     : MAIN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+
+
+root { 
+    display: block;
+}
+
+body {
+    background-color: #e4e4e4; 
+}
+
+#topspace
+{
+    height: 25px;
+}
+
+#wrap {
+    margin: auto;
+    width: 1000px;
+}
+#left{
+    float: left;
+}
+
+#right
+{
+    float: right;
+}
+
+.menutop
+{   
+    background-image: url(../img/menutop.png);
+    width: 170px;
+    height: 27px;
+}
+
+.menuitem
+{
+    
+    background-image: url(../img/menuitem.png);
+    width: 170px;
+    height: 23px;
+    text-shadow: 1px 1px #ffffff;
+    text-align: center;
+    padding-top: 4px;
+    
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+.menulow
+{
+
+    background-image: url(../img/menulow.png);
+    width: 170px;
+    height: 13px;
+
+}
+
+.maintop
+{
+    background-image: url(../img/maintop.png);
+    width: 794px;
+    height: 22px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px #000000;
+}
+.mainmain
+{
+    background-image: url(../img/mainmain.png);
+    width: 784px;
+    padding: 10px;    
+}
+.mainlow
+{
+    background-image: url(../img/mainlow.png);
+    width: 804px;
+    height: 13px;
+}
+
+div.spacer{
+    height: 25px;
+}
+
+a.button{
+    display: block;
+    width: 170px;
+    height: 29px;
+    background-image: url(../img/logout.png);
+}
+a.button:hover{
+    background-image: url(../img/logouth.png);
+}
+
+input    {
+
+    display: block;
+    border: 1px solid #999;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+input:hover{
+    border: 1px solid #24469C;
+}
+
+.mainspace{
+    height: 25px;
+}
+
+
+
+ a:link {color:#293d70;}      /* unvisited link */
+ a:visited {color:#293d70;}  /* visited link */
+ a:hover {color:#000000;}  /* mouse over link */
+ a:active {color:#293d70;}  /* selected link */
+ 
+ a:link {text-decoration:none;}
+ a:visited {text-decoration:none;}
+ a:hover {text-decoration:none;}
+ a:active {text-decoration:none;}
+ 
+ td.rom
+ {
+     width: 250px;
+     border: 1px solid #999;
+     font-family: Arial,Helvetica,sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     background-color: #e4e4e4;
+}
+ 
+ td.eng
+ {
+     width: 250px;
+     border: 1px solid #999;
+          font-family: Arial,Helvetica,sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     background-color: #e4e4e4;
+}
+
+td.selected
+{
+     border: 1px solid #999;
+     font-family: Arial,Helvetica,sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     background-color: #c3eace;
+}
+
+td.notselected
+{
+     border: 1px solid #999;
+     font-family: Arial,Helvetica,sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     background-color: #e4e4e4;
+}
+
+.page{
+
+    background-color: #d8e0e3;
+    border: 1px solid #293d70;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    color: #293d70;
+}
+.page:hover
+{
+    background-color: #eff2f3;
+}
